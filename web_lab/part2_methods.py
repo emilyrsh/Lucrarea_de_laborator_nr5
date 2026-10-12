@@ -93,7 +93,7 @@ print("Ex16")
 import requests
 response = requests.get(BASE_URL, timeout=TIMEOUT)
 if response.url.startswith("https://"): print("Conexiune securizată") 
-else: print("Exercițiul 16 - Conexiune nesecurizată")
+else: print("Conexiune nesecurizată")
 
 # Laborator: Urmărirea redirecționărilor
 # Student: <Roșca Emilia>
